@@ -1,0 +1,37 @@
+.bgDiv{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    .rightBtn{ 
+        position: absolute;
+        right: 30px;
+        top: calc(50% - 20px);
+        transition: 0.3s;
+        cursor: pointer;
+        &:hover{
+            opacity: 40%;
+        }
+    }
+    .leftBtn{ 
+        position: absolute;
+        left: 30px;
+        top: calc(50% - 20px);
+        transition: 0.3s;
+        cursor: pointer;
+        &:hover{
+            opacity: 40%;
+        }
+    }
+    .listPages{
+        height: 100vh;
+        width: 930px;
+        margin: auto;
+        position: relative;
+        background-color: red;
+        overflow: hidden;
+    }
+}
+
