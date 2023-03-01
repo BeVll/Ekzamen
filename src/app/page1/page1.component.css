@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Open Sans Extra-Bold";
+  src: url(/assets/fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url(/assets/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Open Sans Semi-Bold";
+  src: url(/assets/fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Open Sans Medium";
+  src: url(/assets/fonts/OpenSans-Medium.ttf);
+}
+.page1 {
+  width: 930px;
+  height: 100vh;
+  background: url(/assets/images/page1/bg.png);
+  background-size: contain;
+  overflow: hidden;
+  opacity: 1;
+}
+.page1 .bg {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  opacity: 0.5;
+}
+.page1 .logo {
+  position: absolute;
+  top: 75px;
+  left: 50px;
+}
+.page1 .buttonBlock {
+  background-color: #140f10;
+  padding: 9px 40px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+  bottom: 55px;
+  left: -330px;
+  position: absolute;
+  border: solid 1px black;
+  cursor: pointer;
+}
+.page1 .buttonBlock .title {
+  font-family: "Open Sans Semi-Bold";
+  font-size: 16px;
+  color: #feffff;
+}
+.page1 .buttonBlock .title2 {
+  font-family: "Open Sans Extra-Bold";
+  font-size: 16px;
+  color: #704ec9;
+}
+.page1 .arrow {
+  position: absolute;
+  left: 200px;
+  top: 260px;
+  overflow: hidden;
+  height: 0px;
+}
+.page1 .arrowsRight {
+  position: absolute;
+  right: 60px;
+  bottom: 50px;
+}
+.page1 .Shape2 {
+  position: absolute;
+  left: 370px;
+  top: 170px;
+  opacity: 0;
+}
+.page1 .Shape3 {
+  position: absolute;
+  left: 375px;
+  bottom: 305px;
+  opacity: 0;
+}/*# sourceMappingURL=page1.component.css.map */

@@ -1,0 +1,78 @@
+.texts{
+    position: absolute;
+    left: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    .usernameBlock{
+        width: 400px;
+        .title{
+            transition: 0.4s;
+            font-family: 'Open Sans Extra-Bold';
+            font-size: 18px;
+            color: #191d25;
+        }
+        .title2{
+            transition: 0.4s;
+            font-family: 'Open Sans Extra-Bold';
+            font-size: 18px;
+            color: #feffff;
+        }
+        &:hover{
+        
+            .title{
+                font-size: 20px;
+            }
+            .title2{
+                font-size: 20px;
+            }
+        }
+    }
+    .titleBlock{
+        padding-top: 15px;
+        width: 400px;
+        transition: 0.4s;
+        .title{
+            font-family: 'Open Sans Extra-Bold';
+            font-size: 46px;
+            color: #feffff;
+            line-height: 56px;
+        }
+        .title2{
+            font-family: 'Open Sans Extra-Bold';
+            font-size: 46px;
+            color: #111111;
+            line-height: 56px;
+        }
+        &:hover{
+            padding-top: 30px;
+            padding-bottom: 15px;
+        }
+    }
+    .bodyTextBlock{
+        padding-top: 15px;
+        width: 240px;
+        transition: 0.4s;
+        .title{
+            transition: 0.4s;
+            font-family: 'Open Sans Medium';
+            font-size: 15px;
+            color: #111012;
+        }
+        .title2{
+            transition: 0.4s;
+            font-family: 'Open Sans Extra-Bold';
+            font-size: 15px;
+            color: #111012;
+        }
+        &:hover{
+            width: 280px;
+            .title{
+                font-size: 17px;
+            }
+            .title2{
+                font-size: 17px;
+            }
+        }
+    } 
+}

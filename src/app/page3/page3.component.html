@@ -1,0 +1,48 @@
+<div class="page3">
+    <img (click)="logoClick()"  src="assets/images/page3/logo.png" class="logo" height="70" [@openCloseLogo]="createCheck ? 'open' : 'closed'"/>
+    <div class="texture1"></div>
+    <div class="usernameBlock" [@openCloseUsername]="createCheck ? 'open' : 'closed'">
+        <span class="title">Digital</span>
+        <span class="title2"> Professionals</span>
+        <div [@openCloseArrows]="createCheck2 ? 'open' : 'closed'">
+            <img src="assets/images/page3/Shape3.png"  class="Shape4" height="40"/>
+        </div>
+        
+    </div>
+    <div class="texts">
+        
+        <div class="titleBlock">
+            <span class="title">Start now!</span>
+        </div>
+        <div class="bodyTextBlock">
+            <span class="title">Lorem ipsum dolor sit amet, </span>
+            <span class="title2"> consectetur adipiscing elit</span>
+            <span class="title">, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+        </div>
+        
+    </div>
+    <a href="https://www.targetgroup.com" target="_blank" class="buttonBlock" [@openCloseBtn]="createCheck ? 'open' : 'closed'">      
+        <span class="title">Get In Touch!</span>
+        <span class="title2"> targetgroup</span>
+        <span class="title">.com</span>
+    </a>
+    <div class="social" [@openCloseSocial]="createCheck ? 'open' : 'closed'">
+        <div>
+            <img src="assets/images/page3/facebook.png" alt="" height="35">
+        </div>
+        <div>
+            <img src="assets/images/page3/insta.png" alt="" height="35">
+        </div>
+        <div>
+            <img src="assets/images/page3/twitter.png" alt="" height="35">
+        </div>
+        
+    </div>
+    <div class="Shape2" [@openCloseShapes]="createCheck ? 'open' : 'closed'" [@openCloseShapes2]="createCheck2 ? 'open' : 'closed'">
+        <img src="assets/images/page3/Shape.png" alt="" height="50">
+    </div>
+    <div class="Shape3" [@openCloseShapes]="createCheck ? 'open' : 'closed'" [@openCloseShapes2]="createCheck2 ? 'open' : 'closed'">
+        <img src="assets/images/page3/Shape2.png" alt="" height="32">
+    </div>
+    <div [@changePage]="incheck" class="bg"></div>
+</div>

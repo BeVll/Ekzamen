@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Open Sans Extra-Bold";
+    src: url(/assets/fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url(/assets/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: "Open Sans Semi-Bold";
+    src: url(/assets/fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Open Sans Medium";
+    src: url(/assets/fonts/OpenSans-Medium.ttf);
+}
+
+.page3{
+    width: 930px;
+    height: 100vh;
+    background: url(/assets/images/page5/bg.png);
+    background-size: contain;
+    overflow: hidden;
+    .bg{
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        opacity: 0.5;
+    }
+    .logo{
+        position: absolute;
+        top: 75px;
+        right: 50px;
+        cursor: pointer;
+    }
+    .usernameBlock{
+        position: absolute;
+        top: 90px;
+        left: 50px;
+        display: flex;
+        flex-direction: row;
+        .title{
+            font-family: 'Open Sans Extra-Bold';
+            font-size: 28px;
+            color: 050000;
+        }
+        .title2{
+            font-family: 'Open Sans Extra-Bold';
+            font-size: 28px;
+            color: #feffff;
+        }
+        .Shape4{
+            margin-left: 25px;
+        }
+    }
+    .texts{
+        position: absolute;
+        right: -430px;
+        top: 235px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        align-items: end;
+        .titleBlock{
+            padding-top: 15px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            transition: 0.4s;
+            .title{
+                font-family: 'Open Sans Extra-Bold';
+                font-size: 78px;
+                color: #ffffff;
+                line-height: 85px;
+                text-align: right;
+            }
+            .title2{
+                font-family: 'Open Sans Extra-Bold';
+                font-size: 78px;
+                color: #140f11;
+                line-height: 85px;
+                margin: 0;
+            }
+            &:hover{
+               opacity: 70%;
+            }
+        }
+        .bodyTextBlock{
+            padding-top: 40px;
+            width: 300px;
+            padding-left: 5px;
+            text-align: end;
+            transition: 0.4s;
+            .title{
+                font-family: 'Open Sans Medium';
+                font-size: 18px;
+                color: #ffffff;
+                letter-spacing: 0.4px;
+            }
+            .title2{
+                font-family: 'Open Sans Extra-Bold';
+                font-size: 18px;
+                color: #ffffff;
+            }
+            &:hover{
+                opacity: 70%;
+             }
+        } 
+    }
+    .buttonBlock{
+        text-decoration: none;
+        background-color: #140f10;
+        border: solid 1px black;
+        padding: 9px 40px;
+        width: fit-content;
+        border-radius: 20px;
+        top: 55px;
+        left: 55px;
+        opacity: 0;
+        position: absolute;
+        cursor: pointer;
+        transition: 0.4s;
+        &:hover{
+            border: solid 1px white;
+            background-color: #2e2c2d;
+        }
+        .title{
+            font-family: 'Open Sans Semi-Bold';
+            font-size: 16px;
+            color: #feffff;
+        }
+        .title2{
+            font-family: 'Open Sans Extra-Bold';
+            font-size: 16px;
+            color: #704ec9;
+        }
+    }
+    .social{
+        position: absolute;
+        right: -360px;
+        bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        div{
+            margin: 0 10px;
+            transition: 0.4s;
+            cursor: pointer;
+            &:hover{
+                opacity: 70%;
+            }
+        }
+    }
+    .Shape2{
+        position: absolute;
+        right: 410px;
+        top: 240px;
+        opacity: 0;
+    }
+}
+

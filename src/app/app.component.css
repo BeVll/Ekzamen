@@ -1,0 +1,36 @@
+.bgDiv {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bgDiv .rightBtn {
+  position: absolute;
+  right: 30px;
+  top: calc(50% - 20px);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.bgDiv .rightBtn:hover {
+  opacity: 40%;
+}
+.bgDiv .leftBtn {
+  position: absolute;
+  left: 30px;
+  top: calc(50% - 20px);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.bgDiv .leftBtn:hover {
+  opacity: 40%;
+}
+.bgDiv .listPages {
+  height: 100vh;
+  width: 930px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  opacity: 1;
+}/*# sourceMappingURL=app.component.css.map */

@@ -21,70 +21,33 @@
     background: url(/assets/images/page1/bg.png);
     background-size: contain;
     overflow: hidden;
+    opacity: 1;
+    .bg{
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        opacity: 0.5;
+    }
     .logo{
         position: absolute;
         top: 75px;
         left: 50px;
     }
-    .texts{
-        position: absolute;
-        left: 50px;
-        top: 440px;
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-        .usernameBlock{
-            width: 400px;
-            .title{
-                font-family: 'Open Sans Extra-Bold';
-                font-size: 18px;
-                color: #191d25;
-            }
-            .title2{
-                font-family: 'Open Sans Extra-Bold';
-                font-size: 18px;
-                color: #feffff;
-            }
-        }
-        .titleBlock{
-            padding-top: 15px;
-            width: 400px;
-            .title{
-                font-family: 'Open Sans Extra-Bold';
-                font-size: 46px;
-                color: #feffff;
-                line-height: 56px;
-            }
-            .title2{
-                font-family: 'Open Sans Extra-Bold';
-                font-size: 46px;
-                color: #111111;
-                line-height: 56px;
-            }
-        }
-        .bodyTextBlock{
-            padding-top: 15px;
-            width: 240px;
-            .title{
-                font-family: 'Open Sans Medium';
-                font-size: 15px;
-                color: #111012;
-            }
-            .title2{
-                font-family: 'Open Sans Extra-Bold';
-                font-size: 15px;
-                color: #111012;
-            }
-        } 
-    }
+   
     .buttonBlock{
+        text-decoration: none;
         background-color: #140f10;
         padding: 9px 40px;
         width: fit-content;
         border-radius: 10px;
         bottom: 55px;
-        left: 30px;
+        left: -330px;
         position: absolute;
+        border: solid 1px black;
         cursor: pointer;
         .title{
             font-family: 'Open Sans Semi-Bold';
@@ -97,6 +60,30 @@
             color: #704ec9;
         }
     }
-    
+    .arrow{
+        position: absolute;
+        left: 200px;
+        top: 260px;
+        overflow: hidden;
+        height: 0px;
+
+    }
+    .arrowsRight{
+        position: absolute;
+        right: 60px;
+        bottom: 50px;
+    }
+    .Shape2{
+        position: absolute;
+        left: 370px;
+        top: 170px;
+        opacity: 0;
+    }
+    .Shape3{
+        position: absolute;
+        left: 375px;
+        bottom: 305px;
+        opacity: 0;
+    }
 }
 

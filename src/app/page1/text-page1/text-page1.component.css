@@ -1,0 +1,50 @@
+.texts {
+  position: absolute;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.texts .usernameBlock {
+  width: 400px;
+}
+.texts .usernameBlock .title {
+  font-family: "Open Sans Extra-Bold";
+  font-size: 18px;
+  color: #191d25;
+}
+.texts .usernameBlock .title2 {
+  font-family: "Open Sans Extra-Bold";
+  font-size: 18px;
+  color: #feffff;
+}
+.texts .titleBlock {
+  padding-top: 15px;
+  width: 400px;
+}
+.texts .titleBlock .title {
+  font-family: "Open Sans Extra-Bold";
+  font-size: 46px;
+  color: #feffff;
+  line-height: 56px;
+}
+.texts .titleBlock .title2 {
+  font-family: "Open Sans Extra-Bold";
+  font-size: 46px;
+  color: #111111;
+  line-height: 56px;
+}
+.texts .bodyTextBlock {
+  padding-top: 15px;
+  width: 240px;
+}
+.texts .bodyTextBlock .title {
+  font-family: "Open Sans Medium";
+  font-size: 15px;
+  color: #111012;
+}
+.texts .bodyTextBlock .title2 {
+  font-family: "Open Sans Extra-Bold";
+  font-size: 15px;
+  color: #111012;
+}/*# sourceMappingURL=text-page1.component.css.map */

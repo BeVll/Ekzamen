@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Open Sans Extra-Bold";
+  src: url(/assets/fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url(/assets/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Open Sans Semi-Bold";
+  src: url(/assets/fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Open Sans Medium";
+  src: url(/assets/fonts/OpenSans-Medium.ttf);
+}
+@font-face {
+  font-family: "Neucha";
+  src: url(/assets/fonts/Neucha-Regular.ttf);
+}
+.page2 {
+  width: 930px;
+  height: 100vh;
+  background: url(/assets/images/page2/bg2.png);
+  background-size: contain;
+  overflow: hidden;
+}
+.page2 .bg {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  opacity: 0.5;
+}
+.page2 .logo {
+  position: absolute;
+  top: 70px;
+  right: -180px;
+}
+.page2 .texts {
+  position: absolute;
+  left: -350px;
+  top: 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.page2 .texts .usernameBlock {
+  width: 400px;
+}
+.page2 .texts .usernameBlock .title {
+  font-family: "Open Sans Extra-Bold";
+  font-size: 18px;
+  color: #191d25;
+}
+.page2 .texts .usernameBlock .title2 {
+  font-family: "Open Sans Extra-Bold";
+  font-size: 18px;
+  color: #feffff;
+}
+.page2 .texts .titleBlock {
+  padding-top: 15px;
+}
+.page2 .texts .titleBlock .title {
+  font-family: "Open Sans Extra-Bold";
+  font-size: 74px;
+  color: #5c48c0;
+  line-height: 74px;
+  margin: 0;
+}
+.page2 .texts .titleBlock .title2 {
+  font-family: "Open Sans Extra-Bold";
+  font-size: 74px;
+  color: #140f11;
+  line-height: 74px;
+  margin: 0;
+}
+.page2 .texts .bodyTextBlock {
+  padding-top: 15px;
+  width: 215px;
+}
+.page2 .texts .bodyTextBlock .title {
+  font-family: "Open Sans Medium";
+  font-size: 17px;
+  color: #111012;
+}
+.page2 .texts .bodyTextBlock .title2 {
+  font-family: "Open Sans Extra-Bold";
+  font-size: 17px;
+  color: #111012;
+}
+.page2 .targBlock {
+  display: flex;
+  position: absolute;
+  left: -200px;
+  top: 70px;
+  align-items: center;
+  font-family: "Neucha";
+}
+.page2 .targBlock .targ1 {
+  color: #111111;
+  font-size: 60px;
+  margin-right: 10px;
+}
+.page2 .targBlock .targ2 {
+  color: #111111;
+  font-size: 25px;
+}
+.page2 .targBlock .targ3 {
+  color: #6949c4;
+  font-size: 25px;
+}
+.page2 .buttonBlock {
+  background-color: #140f10;
+  padding: 9px 40px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+  bottom: 55px;
+  left: -330px;
+  position: absolute;
+  border: solid 1px black;
+  cursor: pointer;
+}
+.page2 .buttonBlock .title {
+  font-family: "Open Sans Semi-Bold";
+  font-size: 16px;
+  color: #feffff;
+}
+.page2 .buttonBlock .title2 {
+  font-family: "Open Sans Extra-Bold";
+  font-size: 16px;
+  color: #704ec9;
+}
+.page2 .Shape2 {
+  position: absolute;
+  left: 442px;
+  top: 446px;
+  opacity: 0;
+}
+.page2 .Shape3 {
+  position: absolute;
+  right: 102px;
+  top: 355px;
+  opacity: 0;
+}/*# sourceMappingURL=page2.component.css.map */

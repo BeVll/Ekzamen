@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "Open Sans Extra-Bold";
+    src: url(/assets/fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url(/assets/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: "Open Sans Semi-Bold";
+    src: url(/assets/fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Open Sans Medium";
+    src: url(/assets/fonts/OpenSans-Medium.ttf);
+}
+@font-face {
+    font-family: "Neucha";
+    src: url(/assets/fonts/Neucha-Regular.ttf);
+}
+
+.page2{
+    width: 930px;
+    height: 100vh;
+    background: url(/assets/images/page2/bg2.png);
+    background-size: contain;
+    overflow: hidden;
+    .bg{
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        opacity: 0.5;
+    }
+    .logo{
+        position: absolute;
+        top: 70px;
+        right: -180px;
+        cursor: pointer;
+        transition: 0.4s;
+        &:hover{
+            opacity: 70%;
+        }
+    }
+    .texts{
+        position: absolute;
+        left: -350px;
+        top: 300px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        .usernameBlock{
+            width: 400px;
+            .title{
+                font-family: 'Open Sans Extra-Bold';
+                font-size: 18px;
+                color: #191d25;
+            }
+            .title2{
+                font-family: 'Open Sans Extra-Bold';
+                font-size: 18px;
+                color: #feffff;
+            }
+        }
+        .titleBlock{
+            transition: 0.4s;
+            padding-top: 15px;
+            .title{
+                font-family: 'Open Sans Extra-Bold';
+                font-size: 74px;
+                color: #5c48c0;
+                line-height: 74px;
+                margin: 0;
+            }
+            .title2{
+                font-family: 'Open Sans Extra-Bold';
+                font-size: 74px;
+                color: #140f11;
+                line-height: 74px;
+                margin: 0;
+            }
+            &:hover{
+                padding-left: 20px;
+            }
+        }
+        .bodyTextBlock{
+            padding-top: 15px;
+            width: 210px;
+            transition: 0.4s;
+            .title{
+                font-family: 'Open Sans Medium';
+                font-size: 17px;
+                color: #111012;
+            }
+            .title2{
+                font-family: 'Open Sans Extra-Bold';
+                font-size: 17px;
+                color: #111012;
+            }
+            &:hover{
+                padding-left: 20px;
+            }
+        } 
+        
+    }
+    .targBlock{
+        display: flex;
+        position: absolute;
+        left: -200px;
+        top: 70px;
+        align-items: center;
+        font-family: "Neucha";
+        .targ1{
+            color: #111111;
+            font-size: 60px;
+            margin-right: 10px;
+        }
+        .targ2{
+            color: #111111;
+            font-size: 25px;
+        }
+        .targ3{
+            color: #6949c4;
+            font-size: 25px;
+        }
+        
+    }
+    .buttonBlock{
+        text-decoration: none;
+        background-color: #140f10;
+        padding: 9px 40px;
+        width: fit-content;
+        border-radius: 10px;
+        bottom: 55px;
+        left: -330px;
+        position: absolute;
+        border: solid 1px black;
+        cursor: pointer;
+        transition: 0.4s;
+        &:hover{
+            border: solid 1px #704ec9;
+            background-color: #2e2c2d;
+        }
+        .title{
+            font-family: 'Open Sans Semi-Bold';
+            font-size: 16px;
+            color: #feffff;
+        }
+        .title2{
+            font-family: 'Open Sans Extra-Bold';
+            font-size: 16px;
+            color: #704ec9;
+        }
+    }
+
+    .Shape2{
+        position: absolute;
+        left: 442px;
+        top: 446px;
+        opacity: 0;
+    }
+    .Shape3{
+        position: absolute;
+        right: 102px;
+        top: 355px;
+        opacity: 0;
+    }
+}
+

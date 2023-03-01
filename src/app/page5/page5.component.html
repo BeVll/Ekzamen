@@ -1,0 +1,39 @@
+<div class="page3">
+    <div class="texture1"></div>
+    <div class="texts" [@openCloseTexts]="createCheck ? 'open' : 'closed'">
+        
+        <div class="titleBlock">
+            <span class="title2">Creative</span>
+            <span class="title">solutions</span>
+            <span class="title">to digital</span>
+            <span class="title2">challenges</span>
+        </div>
+        <div class="bodyTextBlock">
+            <span class="title">Lorem ipsum dolor sit amet, </span>
+            <span class="title2"> consectetur adipiscing elit</span>
+            <span class="title">, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+        </div>
+        
+    </div>
+    <a href="https://www.targetgroup.com" target="_blank" class="buttonBlock" [@openCloseBtn]="createCheck ? 'open' : 'closed'">      
+        <span class="title">Get In Touch!</span>
+        <span class="title2"> targetgroup</span>
+        <span class="title">.com</span>
+    </a>
+    <div class="social" [@openCloseSocial]="createCheck ? 'open' : 'closed'">
+        <div>
+            <img src="assets/images/page3/facebook.png" alt="" height="35">
+        </div>
+        <div>
+            <img src="assets/images/page3/insta.png" alt="" height="35">
+        </div>
+        <div>
+            <img src="assets/images/page3/twitter.png" alt="" height="35">
+        </div>
+        
+    </div>
+    <div class="Shape2" [@openCloseLight]="createCheck ? 'open' : 'closed'">
+        <img src="assets/images/page5/Shape.png" alt="" height="96">
+    </div>
+    <div [@changePage]="incheck" class="bg"></div>
+</div>
